@@ -1,0 +1,183 @@
+.container{
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  min-height: 45vw;
+  padding-bottom: 4%;
+}
+
+.text {
+  position: relative;
+  padding: 0 2rem;
+  width: 30%;
+}
+
+.link {
+  margin: 0;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  letter-spacing: 0.5px;
+  color: rgb(53, 53, 53);
+  margin: 1.8em 0;
+}
+
+.title,
+.githubTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw;
+  letter-spacing: 0.5px;
+  color: rgb(75, 75, 75);
+  margin-bottom: 0;
+}
+
+.githubTitle {
+  margin-top: 0;
+}
+
+.detail {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1vw;
+  line-height: 2.1vw;
+  letter-spacing: 0.875px;
+}
+
+.techStack {
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.techItem {
+  margin: 5px 8px;
+}
+
+.image {
+  width: 58%;
+}
+
+.laptopContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 13%;
+  width: 60%;
+}
+
+.laptopFrame {
+  position: absolute;
+  width: 92%;
+}
+
+.laptopScreen {
+  width: 71%;
+  position: relative;
+  padding-top: 10%;
+  right: 10.5%;
+}
+
+.cImg{
+  height: 96%;
+  border-radius: 5px;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobileImage {
+  height: 50vw;
+}
+
+@media screen and (max-width: 768px) {
+  .hr {
+    border-color: transparent;
+    margin: 2px;
+  }
+  .mobile {
+    display: unset;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .accordion {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    background: white;
+  }
+  
+  .accordionItem {
+    width: 100%;
+    min-height: 80px;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(99, 99, 99);
+  }
+
+  .dropDownIcon {
+    margin: 20px 10px;
+  }
+
+  .container{
+    flex-direction: column;
+    padding: 0 0 60px 0;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 2px 0;
+    overflow: hidden;
+  }
+  
+  .text {
+    margin: 0 0 20px 0;
+    width: 100vw;
+  }
+  
+  .header {
+    display: none;
+  }
+
+  .title,
+  .githubTitle {
+    margin-top: 0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+  }
+
+  .link {
+    margin: 2px 0 0 5px;
+    font-size: 15px;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .gitHubLink {
+    margin-bottom: 20px;
+  }
+  
+  .detail {
+    margin: 2px 0 0 5px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
+  .techStack {
+    margin: 2px 0 0 5px;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+}

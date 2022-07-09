@@ -1,0 +1,34 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.laptop {
+  font-size: 150px;
+  color: #333333;
+  margin-bottom: -20px;
+}
+
+.header {
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 25px;
+  color: #333333;
+}
+
+.subheader {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #333333;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 100vh;
+    padding-top: 30px;
+  }
+}
