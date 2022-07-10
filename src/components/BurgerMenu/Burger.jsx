@@ -6,7 +6,7 @@ const BurgerMenu = () => {
     const [open, setOpen] = useState(false)
 
     return (
-      <Menu isOpen={open}>
+      <Menu isOpen={false || open}>
         <Link 
           onClick={setOpen}
           activeClass="active" 
