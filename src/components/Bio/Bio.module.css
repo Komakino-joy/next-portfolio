@@ -52,7 +52,7 @@
   font-size: 2vw;
   letter-spacing: 0.5px;
   color: rgb(53, 53, 53);
-  margin-top: 1.8em 0;
+  margin: 0 0 15px 0;
 }
 
 .detail {
@@ -60,6 +60,7 @@
   font-size: 1.1vw;
   line-height: 2.1vw;
   letter-spacing: 0.875px;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {

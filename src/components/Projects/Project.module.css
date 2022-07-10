@@ -23,7 +23,7 @@
   font-size: 2vw;
   letter-spacing: 0.5px;
   color: rgb(53, 53, 53);
-  margin: 1.8em 0;
+  margin: 50px 0 40px 0;
 }
 
 .title,
@@ -41,9 +41,14 @@
 
 .detail {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.1vw;
-  line-height: 2.1vw;
+  font-size: 20px;
+  line-height: 35px;
   letter-spacing: 0.875px;
+  margin: 5px 0 20px 0px;
+}
+
+.gitHubLink {
+  margin-left: 8px;
 }
 
 .techStack {
